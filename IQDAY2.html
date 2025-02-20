@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Ques1.Write code to create an ordered list with roman numbers</h3>
+    <ol type="I">
+<li>Item1</li>
+<li>Item2</li>
+    </ol>
+    <h3>Ques2.Write code to create an unordered list with circle</h3>
+    <ul type="circle">
+        <li>Item1</li>
+        <li>Item2</li>
+    </ul>
+    <h3>Ques3.Write code to create a link to https://www.prepbytes.com</h3>
+    <a href="https://www.prepbytes.com"> PrepBytes</a>
+    <h3>Ques4.Write a code to insert an image</h3>
+    <img src="i2.png" width="100px" height="100px"/>
+    <h3>Ques5.Write html code to create a 2*2 table : Table columns should be name and salary ,
+         and provide two entries for this.</h3>
+         <table border="1">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Ruchi</td>
+                <td>50000</td>
+            </tr>
+        </thead>
+         </table>
+         <h3>Ques6.Create a form contain input fields like name age email and contact</h3>
+         <lable>Enter Email-id</lable>
+         <input type="email" name="email" id=""> 
+         <label>Enter Number</label>
+         <input type="number" name="num" id="">
+         <h3>Ques7.Create a table and explain how to acheive colspan</h3>
+         <p>The colspan attribute in the <td> tag is used to make a cell span across multiple columns.
+            In this example, colspan="2" makes the first cell in the first row span across two columns.</p>
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Ruchi</td>
+                    <td>50000</td>
+                </tr>
+            </thead>
+             </table>     
+<h3>Ques8.Create radio button (MERN, MEAN : course)and 
+    checkbox(HTML, CSS, React, Node : technology) and
+     explain the difference between these two</h3>     
+     <h4>difference between radio button and checkbox</h>                   
+<p>Radio Buttons: Used when only one option can be selected from a group (e.g., choosing one course).
+Checkboxes: Used when multiple options can be selected (e.g., selecting multiple technologies).</p>
+<label>Course:</label>
+<input type="radio" name="Ruchi" id=""/>MERN
+<input type="radio" name="Ruchi" id=""/>MEAN<BR>
+<label>Technology:</label>
+<input type="checkbox" name="" id=""/>HTML
+<input type="checkbox" name="" id=""/>CSS
+<input type="checkbox" name="" id=""/>React
+<input type="checkbox" name="" id=""/>Node
+<H3>Ques9.How many types of heading does an HTML contain?</H3>
+<p>HTML contains six types of headings.eg..
+    <h1>h1:The most important heading.</h1>
+    <h2> h2:Second most important.</h2>
+    <h3> h3:Third level heading.</h3>
+    <h4>h4:Fourth level heading.</h4>
+    <h5>h5: Fifth level heading.</h5>
+    <h6>h6:The least important heading.</h6></p><br>
+ <h3>Ques10.Which heading have highest priority and Least priority.</h3>
+<p> The highest priority heading is h1</p>
+    <p>The lowest priority heading is h6</p>
+    <h3>Ques11.How to create a hyperlink in HTML?</h3>
+    <p>Create to hyperlink use to anchor tag.
+        eg. <a href="https://www.example.com">Click here</a></p>
+<h3>Ques11.Which HTML tag is used to display the data in the tabular form?</h3>
+<p>The HTML tag used to display data in tabular form is the table tag.</p>
+<table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+    <tr>
+      <td>Data 3</td>
+      <td>Data 4</td>
+    </tr>
+  </table>
+  <h3>Ques12.Why do we use colgroup tag in table tag.</h3>
+  <p>The colgroup tag is used in HTML to group and apply styles or attributes (like width) to specific columns in a table. </p>
+  <p>Grouping columns: You can apply styles to groups of columns instead of applying them individually to each cell.
+    Column attributes: Set attributes such as width for the entire column(s).</p>
+    <table>
+        <colgroup>
+          <col style="background-color: yellow;">
+          <col style="background-color: lightgreen;">
+        </colgroup>
+        <tr>
+          <td>item 1</td>
+          <td>item 2</td>
+        </tr>
+        <tr>
+          <td>item 3</td>
+          <td>item 4</td>
+        </tr>
+      </table>
+   <h3>Ques13.What are some common lists that are used when designing a page?</h3>   
+   <p>Unordered List (ul): A list where the order of items doesn't matter (usually with bullet points).
+    Ordered List (ol): A list where the order of items is important (usually with numbers).</p>
+    <h3>Ques14.Write a structure of definition list.</h3>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition of Term 1</dd>
+        
+        <dt>Term 2</dt>
+        <dd>Definition of Term 2</dd>
+        
+        <dt>Term 3</dt>
+        <dd>Definition of Term 3</dd>
+      </dl>
+<h3>Ques15.What does mean by of dl, dt and dd in definition list.</h3> 
+dl: Defines the definition list.
+        dt: Defines a term in the list.
+        dd: Defines the definition or description of the corresponding term.
+        <h3>Ques16.What is the difference between HTML elements and tags?</h3>
+        <p>HTML tags are the markup components (like p), 
+            while elements are the entire structure including the tags and content (like <p>This is a paragraph</p>).</p>
+     <h3>Ques17.What is semantic HTML?</h3>
+<p>emantic tags in HTML are elements that clearly describe their meaning in the context of the content, 
+such as <!--<header>, <article>, and <footer>..etc-->
+without div tag and span tag the whole tag in html is sentic tags</p>
+<h3>Ques18.What is an image map?</h3>
+<p>An image map is an image with clickable areas (defined using map and area tags) that link to different destinations.</p>
+<h3>Ques19.How to insert a copyright symbol on a browser page?</h3>
+<p>To insert a copyright symbol on a browser page, you can use the following HTML code:
+    &copy;
+</p>
+<h3>Ques20.How to create a nested webpage in HTML?</h3>
+<p>To create a nested webpage in HTML, you can use an iframe tag to embed another HTML page within the current page. </p>
+<h4>Main Page</h4>
+  <iframe src="nestedpage.html" width="400" height="100"></iframe>
+
+  <h3>Ques21.What is use of Iframe tag. and How to create Iframe tag.</h3>
+  <p>The iframe tag in HTML is used to embed another document (usually a webpage) within the current page,
+     essentially creating an inline frame. It allows you to display content from another source, such as another webpage, a video, 
+     or an external resource, without leaving the current page. </p>
+     <iframe src="URL" width="600" height="100"></iframe>
+   <h3>Ques22.In Iframe Which attributes are more impontant?</h3>
+   <p>The most important attributes of the iframe tag are src (specifies the embedded content's URL),
+    width (sets the iframe's width), and height (sets the iframe's height).
+   </p>
+   <h3>Ques23.Does a hyperlink only apply to text?</h3>
+   <p>No, a hyperlink can be applied to any HTML element, not just text, such as images, buttons, or divs using the a tag.</p>
+   <h3>Ques24.What is a style sheet?</h3>
+   <p>A **style sheet** is a file (usually with a `.css` extension) that contains rules for how HTML elements should be displayed,
+    including properties like colors, fonts, layout, and spacing. It separates the content (HTML) from the design (CSS).</p>
+    <h3>Ques25.Can you create a multi-colored text on a web page?</h3>
+    <p>Yes, you can create multi-colored text in HTML using the font tag with different colors (though the font tag is now considered 
+    outdated in modern HTML, it's still useful for basic examples). Here's how:
+     <p><font color="red">This is</font> <font color="blue">multi-colored</font> <font color="green">text</font>!</p></p>
+     <h3>Ques26.Is it possible to change the color of the bullet?</h3>
+     <p>Yes, you can change the color of the bullet by using CSS like this:
+        <ul style="list-style-type: disc; color: red;">
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ul></p>
+<h3>Ques27.Explain the layout of HTML?</h3>
+<p>The layout of an HTML document follows a structured hierarchy with several key sections:
+
+    <!DOCTYPE html>: Defines the document type and version of HTML.
+    <html>: The root element that contains the entire HTML document.
+    <head>: Contains meta-information about the document, such as the title, character encoding, linked CSS files, and scripts.
+    <body>: Contains the content of the webpage, such as text, images, links, and other elements.
+    <!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+</head>
+<body>
+    Content goes here 
+</body>
+-->
+    </p>
+    <h3>Ques28.What is a marquee?</h3>
+    <p>A marquee is an HTML element (marquee) that makes text or images scroll horizontally or
+    vertically across the screen, though it is now deprecated in modern HTML.</p>
+    <h3>Ques29.How to make a picture of a background image of a web page?</h3>
+    <p>You can set a background image for a webpage using CSS like this:</p>
+        <body style="background-image: url('.png');">
+    <h3>Ques29.How to make a picture of a background image of a web page?</h3>
+    <p>To set a background image for a webpage using CSS, you can do it in one line like this:<br>
+
+      body { background-image: url('-image.jpg'); }</p>
+      <h3>Ques30.How many tags can be used to separate a section of texts?</h3>
+      <p>HTML tags to separate sections of text, such as:
+section,
+   div,
+  article,
+   header,
+ footer,
+ main,
+aside</p>
+<h3> Ques31.What are empty elements?</h3>
+<p>Empty elements are HTML tags that don't have any content or closing tag. They are self-closing and only include an opening tag, like -img, br, or input.</p>
+<h3>Ques32.What is the use of a span tag? Give one example.</h3>
+<p>The span tag is used to group inline elements or text for styling or scripting without adding any block-level structure.<br>
+  Example: 
+  <p>My <span style="color: red;">favorite</span> color is red.</p></p>
+<h3>Ques33.What is the use of an iframe tag?</h3>
+<p>The iframe tag is used to embed another HTML document within the current page, effectively displaying content from an external source like a website, 
+  video, or interactive map.  It creates an inline frame that allows you to show another web page inside your page.</p>
+  example:-<iframe src="https://www.example.com" width="100" height="50"></iframe>
+<h3>Ques34.What are the entities in HTML?</h3>
+<p>In HTML, entities are special codes used to represent characters that have a specific meaning in HTML or are not easily typed on a keyboard. 
+  They start with & and end with ;, and often represent characters like symbols, punctuation, or non-printable characters.
+
+  For example:
+  
+  &lt; for < (less than)
+  &gt; for > (greater than)
+  &amp; for & (ampersand)
+  &nbsp; for a non-breaking space</p>
+  <h3>Ques35.Why is a URL encoded in HTML? </h3>
+  <p>A URL is encoded in HTML to ensure special characters are safely transmitted over the web, 
+    as certain characters (like spaces or symbols) could interfere with the URL structure or be misinterpreted.
+     URL encoding replaces these characters with a percent sign (%) followed by their ASCII code.</p>
+<h3>Ques36.Does a !DOCTYPE html tag is a HTML tag?</h3>
+<p>No, !DOCTYPE html is not an HTML tag; it's a declaration that specifies the document type and version of HTML being used.</p>
+<h3>Ques37.What is the canvas element in HTML5?</h3>
+<p>The canvas element in HTML5 is used to draw graphics, such as shapes, images, and animations, via JavaScript. It provides a drawing area within the webpage.</p>
+<h3>Ques38.What is SVG?</h3>
+<p>SVG (Scalable Vector Graphics) is an XML-based format for describing vector graphics, allowing images to be scaled without losing quality. 
+  It supports interactivity, animation, and can be used directly in HTML.
+</p>
+<h3>Ques39.What are the different new form element types in HTML 5?</h3>
+<p>HTML5 introduced several new form element types, including:
+  <br><input type="email"> for email addresses
+  <br><input type="tel"> for phone numbers
+  <br><input type="url"> for URLs
+  <br><input type="date"> for date selection
+ <br> <input type="range"> for slider input
+  <br><input type="search"> for search queries
+  <br><input type="number"> for numeric values
+  <br><input type="time"> for time input</p>
+  <h3>Ques40.Is there any need to change the web browsers to support HTML5 </h3>
+  <p>No, most modern web browsers already support HTML5, so there's generally no need to change or update them. However,
+  older browsers may require updates or may not fully support some newer HTML5 features.
+  It's always a good idea to test your web pages in multiple browsers to ensure compatibility. </p>
+<h3>Ques41.Which type of video formats are supported by HTML5?</h3>
+<p>HTML5 supports the following video.<br>
+  1.MP4 (H.264 video codec, AAC audio codec)<br>
+ 2. WebM (VP8 video codec, Vorbis audio codec)<br>
+ 3. Ogg (Theora video codec, Vorbis audio codec)</p>
+ <h3>Ques42.Is audio tag supported in HTML 5?</h3>
+ <p>Yes, the audio tag is supported in HTML5. It allows you to embed audio files (like MP3, Ogg, or WAV) directly into a webpage, 
+  enabling users to play audio without needing external plugins.</p>
+  <h3>Ques43.What is the difference between progress and meter tag?  </h3>
+<p>The progress tag represents the completion of a task (like a loading bar),
+   while the meter tag represents a scalar value within a known range (such as a temperature or disk usage).
+progress : For progress indication (e.g., loading, downloading).
+meter: For measuring a value within a range (e.g., performance, capacity).</p> 
+<h3>Ques44.What is the use of figure tag in HTML 5?</h3> 
+<p>The figure tag in HTML5 is used to group media content (like images, videos, or diagrams) along with its caption,</p>
+  <figure>
+    <img src="" alt="Description of image"/></figure>
+<h3>Ques45.What is the use of figcaption tag in HTML 5?</h3> 
+<p>The figcaption tag in HTML5 is used to provide a caption or description for a figure element, such as an image, chart, or video.
+   It helps give context or explanation to the media content it accompanies.</p>  
+example:-<figure>
+  <img src="i1.png" alt="Mountain view">
+  <figcaption>A beautiful view of the mountain during sunrise.</figcaption>
+</figure> 
+<h3>Ques46.What is button tag?</h3>   
+<p>The button tag in HTML creates a clickable button used for form submissions or triggering actions</p>
+  example:-<button type="button" onclick="alert('Hello!')">Click Me</button>
+
+<h3>Ques47.What is the use of details and summary tag?</h3>
+<p>The details tag is used to create a collapsible section, and the summary tag defines a visible heading for that section. 
+  When clicked, the details expand or collapse.</p>
+  example:-
+  <details>
+    <summary>More Info</summary>
+    <p>This is some additional information that can be revealed when clicked.</p>
+  </details>
+<h3>Ques48.What is datalist tag?</h3>
+<p>The datalist tag in HTML provides a list of predefined options for an input element.
+   It helps users by showing suggested values as they type, improving data entry by offering choices.
+ The input  element uses the list attribute to link to the datalist.</p>
+ example:-<input list="fruits">
+ <datalist id="fruits">
+   <option value="Apple">
+   <option value="Banana">
+   <option value="Cherry">
+ </datalist>
+<h3>Ques49.How are tags migrated from HTML4 to HTML5?</h3> 
+<p>In HTML5, many HTML4 tags remain the same, but some are deprecated or replaced with new elements.
+example:-
+  font, center, and big are removed.
+  New semantic tags like article, section, nav, and header are introduced for better structure.
+  audio, video, and canvas are added for multimedia support.</p>
+<h3>Ques50.If I do not put !DOCTYPE html will HTML 5 work?</h3>
+<p>No, HTML5 may not work properly without !DOCTYPE html.
+  This declaration tells the browser to render the page in HTML5 mode, ensuring correct interpretation of the document.
+   Without it, the browser may use "quirks mode," leading to inconsistent rendering.</p>
+<h3>Ques51.What is the use of the required attribute in HTML5?</h3>
+<p>The required attribute in HTML5 is used to specify that an input field must be filled out before submitting a form.
+   If the field is empty, the form will not be submitted, and the user will be prompted to fill it in.</p>
+<h3>Ques52.What are the new input types for form validation in HTML5?</h3>     
+<p>HTML5 introduces several new input types for better form validation, including:</p>
+<pre>
+  email: Validates email addresses.
+  url: Validates URLs.
+  tel: For telephone numbers.
+  number: Restricts input to numeric values.
+  range: For selecting a range of values.
+  date, time, datetime-local, month, week: For date and time input.
+  search: For search fields.
+  color: For selecting colors.</pre>
+<h3>Ques53.HTML is case-sensitive or not?</h3>
+<p>No, html is notbis case-sensitive.</p>  
+<h3>Ques54.When are comments used in HTML?</h3>
+<p>Comments in HTML are used to add notes or explanations within the code. They are ignored by the browser and do not affect the page's display. 
+  They are helpful for documenting the code or temporarily disabling sections of code during development.
+ Example:
+  <!-- This is a comment --></p>
+<h3>Ques55.What are Attributes and how do you use them?</h3> 
+<p>Attributes in HTML provide additional information about an element. They are placed inside the opening tag and consist of a name-value pair.
+   Attributes modify the behavior or appearance of an element.  </p>  
+  Example:
+  <img src="image.jpg" alt="Description" width="500"><br>
+  In this example:--
+   src, alt, and width are attributes of the <img> element.
+
+<h3>Ques56.What do you mean by for attributes in label tag.</h3> 
+<p>The for attribute in the <label> tag is used to associate the label with a specific form element. 
+  It links the label to an input field by matching the for value with the input element's id.
+   This improves accessibility and allows the user to click the label to focus on the associated input.</p>
+Example:
+<label for="username">Username:</label>
+<input type="text" id="username">
+<h3>Ques57.How to create a Hyperlink in HTML?</h3>
+<p>To create a hyperlink in HTML, use the anchor tag with the href attribute:<p></p>
+  <a href="https://www.example.com">Click here</a>
+  
+<h3>Ques58.Name some common lists that are used when designing a page.</h3>
+<p>Common lists used in web design include unordered lists (ul), ordered lists (ol), and definition lists dl </p>
+  Unordered List (ul):
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  Ordered List (ol):
+  <ol>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>
+  Definition List (dl):
+  <dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+  </dl>
+<h3>Ques59.Which attributes is required in input tag.</h3>  
+<p>The only required attribute in the input tag is type, which specifies the kind of input (e.g., text, password, number).</p>
+  <input type="text">
+  Other attributes like name, value, and placeholder are optional depending on the context.
+
+<h3>Ques60.What do you mean by MARKUP language and hypertext in HTML?</h3>
+<p>A **markup language** (like HTML) is used to structure and format content, while **hypertext** refers to text that 
+  contains links to other texts or resources, enabling navigation.</p>  
+  Markup Language (HTML):
+  <p>This is a <strong>paragraph</strong> with <em>formatted</em> text.</p>
+  Hypertext (HTML with links):
+  <a href="https://www.example.com">Click here to visit Example</a>
+
+
+<h3>Ques61.How are active links different from normal links?</h3>
+<p>Active links are links that are being clicked or are in the process of being visited, 
+  while normal links are just regular links that haven't been interacted with yet.</p>
+
+  Example:-
+Normal Link:
+<a href="https://www.example.com">Visit Example</a>
+
+<h3>Ques62.What happens if there is no text between the tags? Does this affect the display of the HTML file?</h3>
+<p>If there is no text between the tags, the HTML file will still render normally, but nothing will be displayed for that specific element.
+   Empty tags like `<p></p>` or `<div></div>` don't affect the layout, but they also won't show any content.</p>
+
+<h3>Ques63.What are the limits of the text field size?</h3>
+<p>The limits of a text field's size are determined by the size attribute (for visible width) and the maxlength attribute
+   (for the maximum number of characters allowed).</p> 
+Example:-  <input type="text" size="20" maxlength="50">
+In this example:--
+The text field will display 20 characters wide.
+The user can type up to 50 characters.  
+
+<h3>Ques64.What is the relationship between the border and rule attributes?</h3>
+The border and rule attributes both control the appearance of table borders, but they are used differently:
+
+border: Specifies the width of the border around a table or its cells (e.g., border="1").
+rule: Controls which borders are drawn inside a table (e.g., rules="all" to display borders between all cells).
+Example:
+<table border="1" rules="all">
+  <tr><td>Cell 1</td><td>Cell 2</td></tr>
+</table>
+
+<h3>Ques65.What is Cell Spacing and Cell Padding?</h3>
+<p>Cell Spacing: The space between the borders of adjacent cells in a table (set using the cellspacing attribute).
+  Cell Padding: The space between the content of a cell and its border (set using the cellpadding attribute).</p>
+  Example:--
+  <table cellspacing="10" cellpadding="5">
+    <tr><td>Cell 1</td><td>Cell 2</td></tr>
+  </table>
+ <p> Here, cellspacing adds space between cells, and cellpadding adds space inside each cell.</p>
+
+<h3>Ques66.What is difference between HTML and XHTML?</h3> 
+<pre>The main differences between HTML and XHTML are:
+
+  HTML is more lenient with syntax (e.g., optional closing tags, case-insensitive).
+  XHTML is stricter, requiring all tags to be properly closed, case-sensitive, and well-formed.
+  In short, XHTML is a stricter, XML-based version of HTML.</pre>
+  HTML:
+
+
+<p>This is a paragraph
+<a href="https://www.example.com">Link</a></p><br>
+XHTML:
+<p>This is a paragraph</p>
+<a href="https://www.example.com">Link</a>
+
+<h3>Ques67.How many types of CSS can be included in HTML?</h3>
+<pre>There are three types of CSS that can be included in HTML:
+
+  Inline CSS: Directly within an HTML element using the style attribute.
+  <p style="color: blue;">This is blue text.</p>
+  Internal CSS: Inside the <style> tag in the <head> section of the HTML document.
+  
+  <style>
+    p { color: red; }
+  </style>
+
+  External CSS: Linked to the HTML file through a separate .css file using the <link> tag.
+  <link rel="stylesheet" href="styles.css">
+  </pre>
+
+<h3>Ques68.What are logical and physical tags in HTML?</h3>  
+<pre>Logical Tags: Define the meaning or role of content, independent of how it’s displayed. 
+  They focus on the content's structure. Examples include:-
+
+  <em> (emphasis)</em>
+  <strong> (strong importance)</strong>
+  <code> (code snippet),</code>
+
+  Physical Tags: Define how content should be displayed or styled, affecting the appearance. 
+  They are more about formatting. Examples include:-
+  <b> (bold)</b>
+  <i> (italic)</i>
+  <u> (underline)</u>
+</pre>
+<h3>Ques69.How can you apply JavaScript to a web page?</h3>
+You can apply JavaScript to a web page in three ways:
+
+  Inline JavaScript: Directly within an HTML element using the onclick, onload, etc. attributes.
+  <button onclick="alert('Hello!')">Click Me</button>
+
+  Internal JavaScript: Inside a <script> tag in the <head> or <body> section.
+  <script>
+    alert('Hello!');
+  </script>
+
+  External JavaScript: By linking to an external .js file using the <script> tag.
+  <script src="script.js"></script>
+  </pre>
+
+<h3>Ques70.How to make you radio button and check-box. and how to implement this??</h3>
+To create a radio button and a checkbox in HTML, you use the input tag with the appropriate type attribute. Here's how to implement them:
+
+Radio Button:
+Radio buttons allow the user to select only one option from a set.
+<form>
+  <label><input type="radio" name="color" value="red"> Red</label>
+  <label><input type="radio" name="color" value="green"> Green</label>
+  <label><input type="radio" name="color" value="blue"> Blue</label>
+</form>
+The name attribute groups the radio buttons together, allowing only one to be selected at a time.
+Checkbox:
+Checkboxes allow users to select multiple options.
+<form>
+  <label><input type="checkbox" value="music"> Music</label>
+  <label><input type="checkbox" value="movies"> Movies</label>
+  <label><input type="checkbox" value="sports"> Sports</label>
+</form>
+
+<h3>Ques71.What is main reason or main advantage of label tag?</h3>
+<p>The main advantage of the label tag is that it improves accessibility and usability by allowing users to click the label to focus on the associated form element.</p>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+
+<h3>Ques72.How will you implement when you click on submit button your whole data comes in URL form?</h3>
+<p>To implement submitting data via the URL (using the query string), you can use the GET method in a form. This method appends the form data to the URL when the form is submitted.</p>
+Example:
+<form action="/submit" method="GET">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
